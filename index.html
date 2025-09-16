@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MENTIVHEAL – Peace Begins With You</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #f8f9fa;
+      background: #198754;
+    }
+
+    section {
+      display: none;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    section.active {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    /* Home Section */
+    #home {
+      background: 
+        linear-gradient(rgba(0,128,0,0.7), rgba(0,128,0,0.7)),
+        url("logo.jpg") no-repeat center center;
+      background-size: cover;
+    }
+    .title {
+      font-size: 36px;
+      font-weight: bold;
+      margin: 0;
+    }
+    .subtitle {
+      font-size: 18px;
+      opacity: 0.9;
+    }
+    .card {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 16px;
+      max-width: 800px;
+      margin-top: 20px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.4);
+    }
+    .card h2 {
+      font-size: 28px;
+    }
+    .card p {
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    button, .btn {
+      margin-top: 25px;
+      background: #198754;
+      color: #fff;
+      border: none;
+      padding: 12px 20px;
+      font-size: 16px;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: 0.3s;
+      text-decoration: none;
+      display: inline-block;
+    }
+    button:hover, .btn:hover {
+      background: #157347;
+    }
+
+    /* Resources Section */
+    #resources {
+      background: #e6f4ea;
+      color: #1b4332;
+      text-align: left;
+    }
+    #resources header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    #resources h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #198754;
+    }
+    .section-title {
+      font-size: 22px;
+      font-weight: bold;
+      margin: 30px 0 20px;
+      text-align: center;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card-resource {
+      background: #fff;
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    .card-resource h3 {
+      margin-top: 0;
+      color: #198754;
+    }
+    .card-resource p {
+      font-size: 15px;
+      line-height: 1.6;
+    }
+    nav {
+      text-align: center;
+      margin-top: 30px;
+    }
+    nav a {
+      color: #198754;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    /* Content Pages */
+    #academic-stress, #relaxation, #study-balance, #mood-log, #tracker {
+      background: #fdfdfd;
+      color: #1b4332;
+      text-align: left;
+    }
+    #academic-stress h1, #relaxation h1, #study-balance h1, #mood-log h1, #tracker h1 {
+      color: #198754;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    #academic-stress ul, #relaxation ul, #study-balance ul {
+      max-width: 800px;
+      margin: auto;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+    #academic-stress ul li, #relaxation ul li, #study-balance ul li {
+      margin-bottom: 12px;
+    }
+    #mood-log div, #tracker div {
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Home Section -->
+  <section id="home" class="active">
+    <div class="title">MENTIVHEAL</div>
+
+<img src="MENTIVHEAL LOGO.png" width="100">
+
+    <div class="subtitle">"Peace Begins With You"</div>
+    <div class="card">
+      <h2>Welcome to MENTIVHEAL</h2>
+      <p>
+        Welcome to MENTIVHEAL, a safe and supportive space designed just for you. 
+        Whether you're dealing with stress, seeking inspiration, or just need someone 
+        to listen, we're here to help. This platform offers resources, tools, and real 
+        stories to guide you through your mental wellness journey. Remember, taking care 
+        of your mind is just as important as your grades!
+      </p>
+      <a href="page2.html"> 
+      <button id="startbutton">🌱 Start Your Journey</button>
+    </a>
+    </div>
+  </section>
+
+  <!-- Resources Section -->
+  <section id="resources">
+    <header>
+      <h1>Self-Help Resources</h1>
+      <p>Educational content to handle stress, anxiety, and low motivation</p>
+    </header>
+
+    <!-- Featured Articles -->
+    <div class="section-title">🌟 Featured Articles & Infographics</div>
+    <div class="grid">
+      <div class="card-resource">
+        <h3>📚 Paano I-handle ang Academic Stress?</h3>
+        <p>Chunking tasks, 50/10 study breaks, hydration, good sleep habits, and support system.</p>
+        <a id="academicBtn" class="btn">Read More</a>
+      </div>
+      <div class="card-resource">
+        <h3>🧘 5-Minute Relaxation Techniques</h3>
+        <p>Box breathing, progressive muscle relaxation, grounding, and more quick classroom-friendly exercises.</p>
+        <a id="relaxBtn" class="btn">Learn More</a>
+      </div>
