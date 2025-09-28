@@ -155,15 +155,13 @@
   </style>
 </head>
 <body>
-
   <!-- Home Section -->
   <section id="home" class="active">
     <div class="title">MENTIVHEAL</div>
-
-<img src="MENTIVHEAL LOGO.png" width="100">
-
+    <img src="MENTIVHEAL LOGO.png" width="100"
     <div class="subtitle">"Peace Begins With You"</div>
-    <div class="card">
+
+    <div class="card"> 
       <h2>Welcome to MENTIVHEAL</h2>
       <p>
         Welcome to MENTIVHEAL, a safe and supportive space designed just for you. 
@@ -172,9 +170,7 @@
         stories to guide you through your mental wellness journey. Remember, taking care 
         of your mind is just as important as your grades!
       </p>
-      <a href="page2.html"> 
-      <button id="startbutton">🌱 Start Your Journey</button>
-    </a>
+      <button id="startBtn">🌱 Start Your Journey</button>
     </div>
   </section>
 
@@ -198,3 +194,192 @@
         <p>Box breathing, progressive muscle relaxation, grounding, and more quick classroom-friendly exercises.</p>
         <a id="relaxBtn" class="btn">Learn More</a>
       </div>
+      <div class="card-resource">
+        <h3>⏱️ Study-Life Balance Tips</h3>
+        <p>Time blocking, digital detox, and bedtime rituals for better rest and productivity.</p>
+        <a id="balanceBtn" class="btn">Explore Tips</a>
+      </div>
+    </div>
+
+    <!-- Interactive Tools -->
+    <div class="section-title">🛠️ Interactive Tools</div>
+    <div class="grid">
+      <div class="card-resource">
+        <h3>📝 Daily Mood Log</h3>
+        <p>Track your emotions and reflect daily with this interactive tool.</p>
+        <a id="moodBtn" class="btn">Open Mood Log</a>
+      </div>
+      <div class="card-resource">
+        <h3>🧭 Stress-Relief Tracker</h3>
+        <p>Supports building coping routines: journaling, exercise, and relaxation practices.</p>
+        <a id="trackerBtn" class="btn">Open Tracker</a>
+      </div>
+    </div>
+
+    <nav>
+      <p><a id="backBtn">⬅ Back to Home</a></p>
+    </nav>
+  </section>
+
+  <!-- Academic Stress Section -->
+  <section id="academic-stress">
+    <h1>📚 Paano I-handle ang Academic Stress?</h1>
+    <ul>
+      <li>🗂️ <b>Chunking Tasks:</b> Hatiin ang malaking gawain sa mas maliliit na parts at gawin ito step by step.</li>
+      <li>⏳ <b>50/10 Breaks:</b> Mag-aral ng 50 minuto, magpahinga ng 10 minuto para hindi ka ma-burnout.</li>
+      <li>💧 <b>Hydration:</b> Uminom ng sapat na tubig habang nag-aaral upang manatiling alerto.</li>
+      <li>😴 <b>Good Sleep:</b> Siguraduhin ang 7–8 oras na tulog para mas productive at focus kinabukasan.</li>
+      <li>👥 <b>Support System:</b> Mag-seek ng tulong sa kaibigan, pamilya, o guro kapag overwhelmed.</li>
+    </ul>
+    <nav><p><a id="backToResources1">⬅ Back to Resources</a></p></nav>
+  </section>
+
+  <!-- Relaxation Section -->
+  <section id="relaxation">
+    <h1>🧘 5-Minute Relaxation Techniques</h1>
+    <ul>
+      <li>🌬️ <b>Box Breathing:</b> Huminga ng 4 sec, hold 4 sec, exhale 4 sec, hold 4 sec. Ulitin 5x.</li>
+      <li>💪 <b>Muscle Relaxation:</b> I-tense at i-relax ang bawat group ng muscles mula ulo hanggang paa.</li>
+      <li>👣 <b>Grounding:</b> Name 5 bagay na nakikita, 4 nahahawakan, 3 naririnig, 2 naaamoy, 1 nalalasahan.</li>
+      <li>🎧 <b>Calming Music:</b> Makinig ng soft instrumental o nature sounds habang nagre-relax.</li>
+      <li>📖 <b>Visualization:</b> Imagine a peaceful place (dagat o bundok) at magpahinga ang isip doon.</li>
+    </ul>
+    <nav><p><a id="backToResources2">⬅ Back to Resources</a></p></nav>
+  </section>
+
+  <!-- Study-Life Balance Section -->
+  <section id="study-balance">
+    <h1>⏱️ Study-Life Balance Tips</h1>
+    <ul>
+      <li>📅 <b>Time Blocking:</b> Mag-set ng oras para sa study, pahinga, at personal activities.</li>
+      <li>📵 <b>Digital Detox:</b> Limit screen time, iwasan ang social media habang nag-aaral.</li>
+      <li>🛏️ <b>Bedtime Rituals:</b> Gumawa ng relaxing routine bago matulog (reading, light music).</li>
+      <li>⚽ <b>Healthy Breaks:</b> Maglakad, mag-exercise, o gumawa ng hobby sa pagitan ng study sessions.</li>
+      <li>👨‍👩‍👧 <b>Family & Friends:</b> Maglaan ng oras makipag-bonding para maiwasan ang isolation.</li>
+    </ul>
+    <nav><p><a id="backToResources3">⬅ Back to Resources</a></p></nav>
+  </section>
+
+  <!-- Daily Mood Log Section -->
+  <section id="mood-log">
+    <h1>📝 Daily Mood Log</h1>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      Track your emotions and reflect daily with this interactive tool.
+    </p>
+
+    <div style="margin-top:20px; text-align:center;">
+      <p>How do you feel today?</p>
+      <div style="display:flex; justify-content:center; gap:15px; flex-wrap:wrap; font-size:30px;">
+        <button class="btn">😊 Happy</button>
+        <button class="btn">😐 Neutral</button>
+        <button class="btn">😔 Sad</button>
+        <button class="btn">😰 Anxious</button>
+        <button class="btn">😠 Angry</button>
+      </div>
+      <p id="moodResult" style="margin-top:20px; font-size:18px; color:#198754; font-weight:bold;"></p>
+    </div>
+
+    <nav><p><a id="backToResources4">⬅ Back to Resources</a></p></nav>
+  </section>
+
+  <!-- Stress-Relief Tracker Section -->
+  <section id="tracker">
+    <h1>🧭 Stress-Relief Tracker</h1>
+    <p style="text-align:center; max-width:700px; margin:auto;">
+      Use this interactive tracker to build routines that help relieve stress. Log your activities below.
+    </p>
+
+    <div style="margin-top:20px; max-width:600px; margin:auto;">
+      <p><b>Today's Stress Relief Activity:</b></p>
+      <input type="text" id="activityInput" placeholder="e.g. Jogging, Journaling, Breathing Exercise" style="width:100%; padding:10px; border:1px solid #ccc; border-radius:8px;">
+      <button class="btn" id="addActivity" style="margin-top:10px;">Add Activity</button>
+
+      <ul id="activityList" style="margin-top:20px; text-align:left; font-size:16px; line-height:1.8;"></ul>
+    </div>
+
+    <nav><p><a id="backToResources5">⬅ Back to Resources</a></p></nav>
+  </section>
+
+  <!-- Script -->
+  <script>
+    const home = document.getElementById("home");
+    const resources = document.getElementById("resources");
+    const academicStress = document.getElementById("academic-stress");
+    const relaxation = document.getElementById("relaxation");
+    const balance = document.getElementById("study-balance");
+    const moodLog = document.getElementById("mood-log");
+    const tracker = document.getElementById("tracker");
+
+    const startBtn = document.getElementById("startBtn");
+    const backBtn = document.getElementById("backBtn");
+    const academicBtn = document.getElementById("academicBtn");
+    const relaxBtn = document.getElementById("relaxBtn");
+    const balanceBtn = document.getElementById("balanceBtn");
+    const moodBtn = document.getElementById("moodBtn");
+    const trackerBtn = document.getElementById("trackerBtn");
+
+    const backToResources1 = document.getElementById("backToResources1");
+    const backToResources2 = document.getElementById("backToResources2");
+    const backToResources3 = document.getElementById("backToResources3");
+    const backToResources4 = document.getElementById("backToResources4");
+    const backToResources5 = document.getElementById("backToResources5");
+
+    // navigation functions
+    function show(section) {
+      document.querySelectorAll("section").forEach(s => s.classList.remove("active"));
+      section.classList.add("active");
+    }
+
+    startBtn.addEventListener("click", () => show(resources));
+    backBtn.addEventListener("click", () => show(home));
+
+    academicBtn.addEventListener("click", () => show(academicStress));
+    relaxBtn.addEventListener("click", () => show(relaxation));
+    balanceBtn.addEventListener("click", () => show(balance));
+    moodBtn.addEventListener("click", () => show(moodLog));
+    trackerBtn.addEventListener("click", () => show(tracker));
+
+    backToResources1.addEventListener("click", () => show(resources));
+    backToResources2.addEventListener("click", () => show(resources));
+    backToResources3.addEventListener("click", () => show(resources));
+    backToResources4.addEventListener("click", () => show(resources));
+    backToResources5.addEventListener("click", () => show(resources));
+
+    // mood log interaction with quotes
+    const moodQuotes = {
+      "😊 Happy": "Keep shining, your smile can brighten someone’s day! 🌟",
+      "😐 Neutral": "Even on calm days, small steps forward still matter. 🚶",
+      "😔 Sad": "It’s okay to feel down. Remember, storms don’t last forever. 🌈",
+      "😰 Anxious": "Breathe deeply, you are stronger than your worries. 🌬️",
+      "😠 Angry": "Pause, breathe, and let go — peace starts within. ☮️"
+    };
+
+    document.querySelectorAll("#mood-log .btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        if (!btn.hasAttribute("download")) {
+          const mood = btn.textContent.trim();
+          const quote = moodQuotes[mood] || "Stay positive, you got this! 💪";
+          document.getElementById("moodResult").innerHTML = 
+            "You selected: " + mood + "<br><i>💡 " + quote + "</i>";
+        }
+      });
+    });
+
+    // tracker interaction
+    const addActivity = document.getElementById("addActivity");
+    const activityInput = document.getElementById("activityInput");
+    const activityList = document.getElementById("activityList");
+
+    addActivity.addEventListener("click", () => {
+      const activity = activityInput.value.trim();
+      if (activity) {
+        const li = document.createElement("li");
+        li.textContent = "✔ " + activity;
+        activityList.appendChild(li);
+        activityInput.value = "";
+      }
+    }); 
+  </script>
+  </body>
+</html>
+S
